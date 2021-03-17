@@ -1,0 +1,132 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: transparent;
+    }
+  
+  
+  
+    /* Hide scrollbar for Chrome, Safari and Opera */
+  .scroll::-webkit-scrollbar {
+  display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+  
+  
+  
+  body::before { /*Background Image*/
+    content: "";
+    position: fixed;
+    background: #040404 url("photo/001background.png") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    z-index: 1;
+  }
+  
+  
+  .navbar-brand{ /*Nav-Bar Name(or Logo)*/
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-item a:hover, .dropdown:hover .dropbtn {
+  background-color:  #18d26e;
+  }
+  
+  ul{
+    padding-right: 15px;
+  }
+  #navbarSupportedContent li{
+    padding-left: 50px;
+    padding-top: 2px;
+  }
+  
+      /* .......PORTFOLIO (1st Section).......*/
+  
+  #contact-section{
+  padding-top: 5em;
+  }
+  
+  .designfolio{
+  color: #fff;
+  }
+  
+  
+  .section-title h2 { /*PORTFOLIO*/
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+  }
+  
+  h2::after{ /* Horizontal Line*/
+  content: "";
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: #18d26e;
+    margin: 4px 10px;
+  }
+  
+  #contact-section p{ /*DESIGN PORTFOLIO*/
+  margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+
+
+/*BOX---------------------------------------------------------*/
+
+#contform{
+  background-color: #00000069;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#contact-label{
+  color: #fff;
+}
+
+#icon i{
+  color: #18d26e;
+}
+
+
+  .credits { /*Footer*/
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  text-align: right;
+  font-size: 13px;
+  color: #fff;
+  z-index: 999999;
+  }
