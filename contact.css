@@ -92,9 +92,9 @@ body {
     margin: 4px 10px;
   }
   
-  #contact-section p{ /*DESIGN PORTFOLIO*/
+  #contact-section p{ /*CONTACT ME*/
   margin: -15px 0 15px 0;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
