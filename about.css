@@ -162,7 +162,7 @@ h2::after{ /* Horizontal Line*/
 
 .programlang::after{ /* Programming Language Horizontal Line*/
 content: "";
-  width: 50px;
+  width: 75px;
   height: 2px;
   display: inline-block;
   background: #ffffff;
