@@ -20,7 +20,7 @@ body {
   body::before {
     content: "";
     position: fixed;
-    background: #040404 url("photo/001background.png") top right no-repeat;
+    background: #040404 url("Photo/001background.png") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
@@ -55,7 +55,7 @@ body {
 }
 
 #name h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
