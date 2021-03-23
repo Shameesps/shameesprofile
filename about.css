@@ -24,7 +24,7 @@ body {
   body::before { /*Background Image*/
     content: "";
     position: fixed;
-    background: #040404 url("Photo/001background.png") top right no-repeat;
+    background: #040404 url("Photo/002 background.png") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
